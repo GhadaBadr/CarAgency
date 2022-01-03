@@ -1,0 +1,44 @@
+name: car_agency
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.3
+  get: ^4.3.8
+  flutter: 
+    sdk: flutter
+  translator: ^0.1.7
+  device_preview: ^0.8.0
+  flutter_image_slideshow: ^0.1.2
+  flutter_svg: ^0.23.0+1
+  url_launcher: ^6.0.12
+  skeleton_loader: ^2.0.0+4
+  responsive_grid: ^2.0.0
+  intl_phone_number_input: ^0.7.0+2
+  pin_code_fields: ^7.3.0
+  flutter_countdown_timer: ^4.1.0
+  badges: ^2.0.2
+  dotted_border: ^2.0.0+1
+  image_picker: ^0.8.4+4
+
+dev_dependencies: 
+  flutter_lints: ^1.0.4
+  lints: ^1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - lib/Assets/icon/
+  fonts:
+    - family: OpenSans-Regular
+      fonts:
+        - asset: lib/app/data/fonts/OpenSans-Regular.ttf
+    - family: Tajawal-Regular
+      fonts:
+        - asset: lib/app/data/fonts/Tajawal-Regular.ttf    
+
